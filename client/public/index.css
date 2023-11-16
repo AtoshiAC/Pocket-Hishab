@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.content {
+  height: 100%;
+}
+
+/* transection page */
+
+/* Styles for the filters container */
+.filters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  color: #030303;
+}
+
+/* Styles for the individual filter tabs */
+.filter-tab {
+  margin-right: 20px;
+  color: #030303;
+}
+
+/* Styles for the filter elements */
+.filter {
+  margin-right: 10px;
+  color: #030303;
+}
+/* transection page */
+
+/* antd icons */
+
+.switch-icons {
+  border: 1px solid rgba(0, 0, 0, 0.677);
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+.anticon svg {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.active-icon {
+  color: black;
+}
+.inactive-icon {
+  color: gray;
+}
+
+.filter-tab .ant-select-selector {
+  width: 150px !important;
+}
